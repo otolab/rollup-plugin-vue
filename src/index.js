@@ -9,7 +9,7 @@ function plugin(options = {}) {
 
     return {
         transform(code, id) {
-            if (!filter(id)) {
+            if (!filter(id) && !id.endsWith('.vue')) {
                 return null;
             }
 
