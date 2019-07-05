@@ -25,7 +25,7 @@
   "homepage": "https://github.com/znck/rollup-plugin-vue#readme",
   "dependencies": {
     "rollup-pluginutils": "latest",
-    "vueify": "latest"
+    "vueify": "*"
   },
   "devDependencies": {
     "babel-core": "^6.1.2",
